@@ -111,3 +111,48 @@ if (john >= 80) {
 }
 
 */
+
+/*
+    Practice Problem 3
+
+    1. You are given three numbers 13, 79 and 45 . Write a program that will print the largest number using if-else
+
+    2. You are given with a triangle with the sides 9, 8, 9 .Write a program to check whether a triangle is Isosceles or not using if-else.
+
+    Isosceles = two sides are equal
+
+*/
+
+/*
+    Solution of Practice Problem 3
+
+    1.
+    var first = 12;
+    var second = 79;
+    var third = 45;
+
+    if (first > second && first > third) {
+    console.log("First number is the largest number");
+    } else if (second > first && second > third) {
+    console.log("Second number is the largest number");
+    } else if (third > first && third > second) {
+    console.log("Third number is the largest number");
+    } else {
+    console.log("Numbers are invalid");
+    }
+
+    2.
+    var side1 = 9;
+    var side2 = 8;
+    var side3 = 9;
+
+    if (side1 === side2 && side1 !== side3) {
+    console.log("The triangle is Isosceles");
+    } else if (side2 === side3 && side2 !== side1) {
+    console.log("The triangle is Isosceles");
+    } else if (side3 === side1 && side3 !== side2) {
+    console.log("The triangle is Isosceles");
+    } else {
+    console.log("The trianle is not Isosceles");
+    }
+*/
